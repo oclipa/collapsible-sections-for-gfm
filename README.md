@@ -55,7 +55,8 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 ## e.g. in collapse.css
 
 ```css
-/* Style the button that is used to open and close the collapsible content */
+/* Style the button that is used to open and close 
+    the collapsible content */
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -68,7 +69,9 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
   font-size: 24px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button if it is clicked on 
+    (add the .active class with JS), and when you move the 
+    mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #ccc;
 }
@@ -87,12 +90,9 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 </div>
 </div>
 
-<div>
-    
+<div>   
 <button type="button" class="collapsible">+ Indicate Sections to be Collapsed</button>
-    
 <div class="content" style="display: none;" markdown="1">
-
 ## e.g. in README.md
 
 **Note that the line spacing and left alignment of the &lt;div&gt; tags is important!**
