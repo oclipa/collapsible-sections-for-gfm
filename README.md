@@ -4,9 +4,11 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 <button type="button" class="collapsible">+ Add Javascript to Markdown</button>
 <div class="content" style="display: none;" markdown="1">
 
-## e.g. in README.md
+### e.g. in README.md
 
 **This should be placed at the bottom of the markdown document**
+
+**This will look ugly when viewed on GitHub, but won't be visible on GitHub Pages**
 
 ```javascript
 <script type="text/javascript">
@@ -48,7 +50,7 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 <button type="button" class="collapsible">+ Add CSS in an External File</button>
 <div class="content" style="display: none;" markdown="1">
     
-## e.g. in collapse.css
+### e.g. in collapse.css
 
 ```css
 /* Style the button that is used to open and close 
@@ -90,18 +92,18 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 <button type="button" class="collapsible">+ Indicate Sections to be Collapsed</button>
 <div class="content" style="display: none;" markdown="1">
     
-## e.g. in README.md
+### e.g. in README.md
 
 **Note that the left alignment of the tags is important!**
+
 **Also, the line spacing is important if you want it to look reasonable on GitHub.**
 
 ```html
 <div>   
 <button type="button" class="collapsible">+ Collapsible Section</button>
 <div class="content" style="display: none;" markdown="1">
-
+<!-- Blank line here -->
 <!-- Content to be hidden goes here -->
-
 </div>
 </div>
 ```
