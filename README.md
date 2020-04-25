@@ -10,7 +10,7 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 
 **This should be placed at the bottom of the markdown document**
 
-```
+```javascript
 <script type="text/javascript">
 
     function loadCSS(filename){ 
@@ -54,7 +54,7 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 
 ## e.g. in collapse.css
 
-```
+```css
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
@@ -97,7 +97,7 @@ To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on 
 
 **Note that the line spacing and left alignment of the &lt;div&gt; tags is important!**
 
-```
+```html
 <div>
     
 <button type="button" class="collapsible">+ Collapsible Section</button>
