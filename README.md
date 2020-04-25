@@ -122,20 +122,6 @@ The raw markdown can be viewed here:
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 ------
 **Move along; nothing to see here...**
 
