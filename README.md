@@ -1,4 +1,10 @@
-To add collapsible sections to a GitHub Flavoured Markdown file, when viewed on GitHub Pages, do the following:
+This document briefly summarizes what is required to add collapsible sections to a GitHub Flavoured Markdown file.  The collapsible sections function when viewed on GitHub Pages, but they will not work when viewed on GitHub itself.
+
+For a working example, see this document as viewed on GitHub Pages: 
+   * [https://oclipa.github.io/collapsible-sections-for-gfm/](https://oclipa.github.io/collapsible-sections-for-gfm/)
+
+The raw markdown can be viewed here:
+   * [https://raw.githubusercontent.com/oclipa/collapsible-sections-for-gfm/master/README.md](https://raw.githubusercontent.com/oclipa/collapsible-sections-for-gfm/master/README.md)
 
 <div>   
 <button type="button" class="collapsible">+ Add Javascript to Markdown</button>
